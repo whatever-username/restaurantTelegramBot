@@ -1,0 +1,54 @@
+<?xml version = "1.0"?>
+<keyboards>
+
+    <keyboard name="ADMIN_START" type="reply">
+        <row>
+            <button text="Панель администратора"></button>
+        </row>
+        <row>
+            <button text="Помощь"></button>
+        </row>
+
+    </keyboard>
+    <keyboard name="GUEST_MENU" type="reply">
+        <row>
+            <button text="Назад"></button>
+        </row>
+
+
+    </keyboard>
+    <keyboard name="WORKER_START">
+
+    </keyboard>
+    <keyboard name="GUEST_START" type="reply">
+
+        <row>
+            <button text="Меню"></button>
+        </row>
+        <row>
+            <button text="Заказать стол"></button>
+        </row>
+        <row>
+            <button text="Помощь"></button>
+        </row>
+    </keyboard>
+    <keyboard name="ADMIN_PANEL" type="reply">
+        <row>
+            <button text="Список сотрудников"></button>
+        </row>
+        <row>
+            <button text="Список гостей"></button>
+        </row>
+        <row>
+            <button text="Назад"></button>
+        </row>
+    </keyboard>
+    <keyboard name="ADMIN_WORKERS_PANEL">
+
+    </keyboard>
+    <keyboard name="ADMIN_GUESTS_PANEL">
+
+    </keyboard>
+
+
+</keyboards>

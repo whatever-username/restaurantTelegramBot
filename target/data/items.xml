@@ -1,0 +1,31 @@
+<?xml version = "1.0"?>
+<items>
+    <item>
+        <name>Салат "Цезарь"</name>
+        <description>Описание салата Цезарь Ыфывфывыффвы</description>
+        <category>Салаты</category>
+        <price>200</price>
+        <photo>Caesar.jpg</photo>
+    </item>
+    <item>
+        <name>Салать "Весенний"</name>
+        <description>Описание салата Весенний ываофвлдывыджджфывждвыфлждылфвжфвылджфвылжжфвылжыфв</description>
+        <category>Салаты</category>
+        <price>400</price>
+        <photo>Spring.jpg</photo>
+    </item>
+    <item>
+        <name>Стейк</name>
+        <description>Описание стейка цлкадваыльфдбавоиаытдфлдлаывиыа</description>
+        <category>Вторые блюда</category>
+        <price>1000</price>
+        <photo>Stake.jpg</photo>
+    </item>
+    <item>
+        <name>Стейк 2</name>
+        <description>Описание стейка цлкадваыльфдбавоиаытдфлдлаывиыа</description>
+        <category>Вторые блюда</category>
+        <price>1000</price>
+        <photo>Stake2.jpg</photo>
+    </item>
+</items>
