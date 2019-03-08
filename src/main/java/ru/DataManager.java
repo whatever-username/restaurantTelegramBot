@@ -29,10 +29,12 @@ import java.util.*;
 public class DataManager {
     private Map<User.Type,List<User>> users;
     private Map<String, HashMap<String, Item>> items;
+    private Map<String,Item> nameItems;
     public DataManager(){
         users = getUsers();
         try {
             items = loadItems();
+            nameItems = getItemsNameMap();
         } catch (UnsupportedEncodingException e) {
             e.printStackTrace();
         }
@@ -263,6 +265,25 @@ public class DataManager {
     }
     public Map<String,HashMap<String,Item>> getItems(){
         return this.items;
+    }
+    public Item getItemWithName(String name){
+        return nameItems.get(name);
+    }
+    public HashMap<String,Item> getItemsNameMap(){
+        Collection<HashMap<String,Item>> categories = getItems().values();
+
+        Iterator<HashMap<String,Item>> catIterator = categories.iterator();
+        HashMap<String,Item> nameToItemMap = new HashMap<>();
+        while (catIterator.hasNext()){
+
+            HashMap<String,Item> curCategory = catIterator.next();
+            Iterator<Map.Entry<String,Item>> itemIterator = curCategory.entrySet().iterator();
+            while (itemIterator.hasNext()){
+                Map.Entry<String,Item> item = itemIterator.next();
+                nameToItemMap.put(item.getKey(),item.getValue());
+             }
+        }
+        return nameToItemMap;
     }
 
 }

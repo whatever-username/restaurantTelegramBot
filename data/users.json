@@ -1,1 +1,1 @@
-{"WORKER":[],"ADMIN":[{"userType":"ADMIN","TGuser":{"id":668539715,"firstName":"Иннокентий","isBot":false,"userName":"whatever_username","languageCode":"ru"}}],"GUEST":[{"userType":"GUEST","TGuser":{"id":74374352,"firstName":"Иннокентий","isBot":false,"languageCode":"ru"}}]}
+{"WORKER":[],"ADMIN":[],"GUEST":[{"userType":"GUEST","TGuser":{"id":74374352,"firstName":"Иннокентий","isBot":false,"languageCode":"ru"}},{"userType":"GUEST","TGuser":{"id":668539715,"firstName":"Иннокентий","isBot":false,"userName":"whatever_username","languageCode":"ru"}}]}

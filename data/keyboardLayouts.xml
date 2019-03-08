@@ -14,8 +14,11 @@
         <row>
             <button text="Назад"></button>
         </row>
-
-
+    </keyboard>
+    <keyboard name="GUEST_BUCKET" type="reply">
+        <row>
+            <button text="Назад"></button>
+        </row>
     </keyboard>
     <keyboard name="WORKER_START">
 

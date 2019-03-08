@@ -53,7 +53,7 @@ public class Bot extends TelegramLongPollingBot {
     }
     public void onUpdateReceived(Update update) {
 //        System.out.println("From "+update.getMessage().getFrom().getId()+": '" + update.getMessage().getText()+"'");
-        /*List<SendMessage> messages = */appContext.messageManager.build(update).send();
+        /*List<SendMessage> messages = */appContext.messageManager.build(update);
 
         /*sendMsg(messages);*/
     }

@@ -29,24 +29,24 @@
         <photo>Stake2.jpg</photo>
     </item>
     <item>
-        <name>Десерт 1</name>
+        <name>Торт "Наполеон"</name>
         <description>Описание десерта цлкадваыльфдбавоиаытдфлдлаывиыа</description>
         <category>Десерты</category>
         <price>1000</price>
-        <photo>Stake2.jpg</photo>
+        <photo>Наполеон.jpg</photo>
     </item>
     <item>
-        <name>Десерт 1</name>
+        <name>Борщ</name>
         <description>Описание десерта цлкадваыльфдбавоиаытдфлдлаывиыа</description>
         <category>Первые блюда</category>
         <price>1000</price>
-        <photo>Stake2.jpg</photo>
+        <photo>Борщ.jpg</photo>
     </item>
     <item>
-        <name>Десерт 1</name>
+        <name>Кола</name>
         <description>Описание десерта цлкадваыльфдбавоиаытдфлдлаывиыа</description>
         <category>Напитки</category>
-        <price>1000</price>
-        <photo>Stake2.jpg</photo>
+        <price>200</price>
+        <photo>Cola.jpg</photo>
     </item>
 </items>
